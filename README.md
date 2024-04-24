@@ -4,7 +4,9 @@ local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))() 
 
 end) Section:NewButton("ถือของไม่ตก", "บิด", function() loadstring(game:HttpGet("https://pastebin.com/raw/KbSCJFhZ"))(); end) Section:NewButton("Nameless admin op", "op", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
-end) Section:NewButton("infinite yield", "ควย", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() end) Section:NewButton("สว่าง", "บิด", function() game:GetService("Lighting").Brightness = 2 game:GetService("Lighting").ClockTime = 14 game:GetService("Lighting").FogEnd = 100000 game:GetService("Lighting").GlobalShadows = false game:GetService("Lighting").OutdoorAmbient = Color3.fromRGB(128, 128, 128) end) Section:NewButton("บิน", "V3", function() loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))() end) Section:NewButton("เดินบนกำแพง", "troll", function()
+end) Section:NewButton("infinite yield", "ควย", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() end) Section:NewButton("ฟรี headless", "บิด", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
+end) Section:NewButton("สว่าง", "บิด", function() game:GetService("Lighting").Brightness = 2 game:GetService("Lighting").ClockTime = 14 game:GetService("Lighting").FogEnd = 100000 game:GetService("Lighting").GlobalShadows = false game:GetService("Lighting").OutdoorAmbient = Color3.fromRGB(128, 128, 128) end) Section:NewButton("บิน", "V3", function() loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))() end) Section:NewButton("เดินบนกำแพง", "troll", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 end) local Tab = Window:NewTab("สคริปบล็อกฟุต") local Section = Tab:NewSection("สคริปบล็อกฟุต")  local Tab = Window:NewTab("รวมเเมพ") local Section = Tab:NewSection("บิด") Section:NewButton("รวมแมพต่างๆ", "บิด", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SmartModBoy/VortexAblity/main/SV'))()
