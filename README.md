@@ -10,7 +10,7 @@ end) local Tab = Window:NewTab("สคริปบล็อกฟุต") local 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SmartModBoy/VortexAblity/main/SV'))()
 end) Section:NewButton("rejoin", "บิด", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/tangtanghub212/Rejoin2/main/README.md"), true))()
-end)) Section:NewButton("Infinite Jump", "Idk ", function()     loadstring(game:HttpGet(('https://pastebin.com/raw/V3DKCQTT'),true))() starterGui:SetCore("SendNotification",{ Title = "Message", Text = "Successfully Executed" }) end) Section:NewButton("Keyboard", "For Hide UI", function()     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() starterGui:SetCore("SendNotification",{ Title = "Message", Text = "Successfully Executed" }) end) Section:NewButton("ท่าทางรวมทุกท่า", "บิด", function()
+end) Section:NewButton("Infinite Jump", "Idk ", function()     loadstring(game:HttpGet(('https://pastebin.com/raw/V3DKCQTT'),true))() starterGui:SetCore("SendNotification",{ Title = "Message", Text = "Successfully Executed" }) end) Section:NewButton("Keyboard", "For Hide UI", function()     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() starterGui:SetCore("SendNotification",{ Title = "Message", Text = "Successfully Executed" }) end) Section:NewButton("ท่าทางรวมทุกท่า", "บิด", function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-all-emotes-6849"))()
 
 
