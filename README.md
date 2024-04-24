@@ -13,6 +13,4 @@ end) Section:NewButton("Infinite Jump", "Idk ", function()     loadstring(game:H
 
 
 end) local Tab = Window:NewTab("วาปไปหาผู้เล่น") local Section = Tab:NewSection("ผู้เล่น") players = {} for i,v in pairs(game:GetService("Players"):GetChildren()) do table.insert(players,v.Name) end Section:NewDropdown("ชื่อผู้เล่น", " ", players, function(abc) Select = abc end)Section:NewButton("วาปไป", "ควยย", function() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[Select].Character.HumanoidRootPart.CFrame end) 
- local Tab = Window:NewTab("ตั้งค่า") local Section = Tab:NewSection("ปุ่มเปิดปิด UI") Section:NewKeybind("ปุ่มเปิดปิด UI", "KeybindInfo", Enum.KeyCode.T, function()     Library:ToggleUI() end) local Tab = Window:NewTab("rejoin") local Section = Tab:NewSection("rejoin") Section:NewButton("rejoin", "บิด", function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/tangtanghub212/Rejoin2/main/README.md"), true))()
-end)
+ local Tab = Window:NewTab("ตั้งค่า") local Section = Tab:NewSection("ปุ่มเปิดปิด UI") Section:NewKeybind("ปุ่มเปิดปิด UI", "KeybindInfo", Enum.KeyCode.T, function()     Library:ToggleUI() end)
