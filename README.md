@@ -8,11 +8,43 @@ end) Section:NewButton("infinite yield", "ควย", function() loadstring(game
     loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
 end) local Tab = Window:NewTab("สคริปบล็อกฟุต") local Section = Tab:NewSection("สคริปบล็อกฟุต")  local Tab = Window:NewTab("รวมเเมพ") local Section = Tab:NewSection("บิด") Section:NewButton("รวมแมพต่างๆ", "บิด", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SmartModBoy/VortexAblity/main/SV'))()
-end) Section:NewButton("rejoin", "บิด", function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/tangtanghub212/Rejoin2/main/README.md"), true))()
 end) Section:NewButton("Infinite Jump", "Idk ", function()     loadstring(game:HttpGet(('https://pastebin.com/raw/V3DKCQTT'),true))() starterGui:SetCore("SendNotification",{ Title = "Message", Text = "Successfully Executed" }) end) Section:NewButton("Keyboard", "For Hide UI", function()     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() starterGui:SetCore("SendNotification",{ Title = "Message", Text = "Successfully Executed" }) end) Section:NewButton("ท่าทางรวมทุกท่า", "บิด", function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-all-emotes-6849"))()
 
 
 end) local Tab = Window:NewTab("วาปไปหาผู้เล่น") local Section = Tab:NewSection("ผู้เล่น") players = {} for i,v in pairs(game:GetService("Players"):GetChildren()) do table.insert(players,v.Name) end Section:NewDropdown("ชื่อผู้เล่น", " ", players, function(abc) Select = abc end)Section:NewButton("วาปไป", "ควยย", function() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[Select].Character.HumanoidRootPart.CFrame end) 
- local Tab = Window:NewTab("ตั้งค่า") local Section = Tab:NewSection("ปุ่มเปิดปิด UI") Section:NewKeybind("ปุ่มเปิดปิด UI", "KeybindInfo", Enum.KeyCode.T, function()     Library:ToggleUI() end) 
+ local Tab = Window:NewTab("ตั้งค่า") local Section = Tab:NewSection("ปุ่มเปิดปิด UI") Section:NewKeybind("ปุ่มเปิดปิด UI", "KeybindInfo", Enum.KeyCode.T, function()     Library:ToggleUI() end) local Tab = Window:NewTab("rejoin") local Section = Tab:NewSection("rejoin") Section:NewButton("rejoin", "บิด", function()
+    - rejoin		 
+
+local TeleportService = game:GetService("TeleportService") 
+
+local Players = game:GetService("Players") 
+
+local LocalPlayer = Players.LocalPlayer 
+
+ 
+
+local Rejoin = coroutine.create(function() 
+
+local Success, ErrorMessage = pcall(function() 
+
+TeleportService:Teleport(game.PlaceId, LocalPlayer) 
+
+end) 
+
+ 
+
+if ErrorMessage and not Success then 
+
+warn(ErrorMessage) 
+
+end 
+
+end) 
+
+ 
+
+coroutine.resume(Rejoin)
+
+
+end)
