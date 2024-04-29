@@ -16,6 +16,8 @@ end) Section:NewButton("relz hub", "บิด", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/farghii/relzhub/main/execute.hack", true))()
 end) local Tab = Window:NewTab("รวมเเมพ") local Section = Tab:NewSection("บิด") Section:NewButton("รวมแมพต่างๆ", "บิด", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SmartModBoy/VortexAblity/main/SV'))()
+end) Section:NewButton("Vip Hub", "บิด", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/mJYSeyg8"))();
 end) Section:NewButton("Infinite Jump", "Idk ", function()     loadstring(game:HttpGet(('https://pastebin.com/raw/V3DKCQTT'),true))() starterGui:SetCore("SendNotification",{ Title = "Message", Text = "Successfully Executed" }) end) Section:NewButton("Keyboard", "For Hide UI", function()     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() starterGui:SetCore("SendNotification",{ Title = "Message", Text = "Successfully Executed" }) end) Section:NewButton("ท่าทางรวมทุกท่า", "บิด", function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-all-emotes-6849"))()
 
