@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))() local Window = Library.CreateLib("TangTang v2", "Ocean") local Tab = Window:NewTab("หน้าแรก") local Section = Tab:NewSection("หน้าแรก") Section:NewToggle("วิ่งไว op", "ควย", function(state) if state then game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 30 else game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 10 end end) Section:NewButton("Fling ดีนะอันนี้", "troll", function()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))() local Window = Library.CreateLib("TangTang v2", "Ocean") local Tab = Window:NewTab("หน้าแรก") local Section = Tab:NewSection("หน้าแรก") Section:NewTextBox("WalkSpeed", "Type In A Number To Make The Speed U Want", function(txt) 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt end) Section:NewTextBox("JumpPower", "bruh", function(txt) 	game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt end) Section:NewButton("Fling ดีนะอันนี้", "troll", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
 
 
